@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: spring-ai-demo
+  ai:
+    ollama:
+      chat:
+        options:
+          model: llama3.1
+      embedding:
+        enabled: true
+        model: nomic-embed-text
+    vectorstore:
+      pgvector:
+        initialize-schema: true
+        remove-existing-vector-store-table: true
+        index-type: HNSW
+        distance-type: COSINE_DISTANCE
+        dimensions: 768
+google:
+  api:
+    key: AIzaSyA0EubtqxKBhRqZjN-bjy2Erbb7fSWgz_4
+  cse:
+    id: 8530a01c1cb5d442c
