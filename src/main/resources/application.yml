@@ -18,6 +18,6 @@ spring:
         dimensions: 768
 google:
   api:
-    key: AIzaSyA0EubtqxKBhRqZjN-bjy2Erbb7fSWgz_4
+    key: 
   cse:
-    id: 8530a01c1cb5d442c
+    id: 
